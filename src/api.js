@@ -35,7 +35,18 @@ router.get('/',(req,res)=>{
                     team: 'https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1'
                     }
                 ],
-              }
+              },
+        map2:
+            {
+                images : [],
+                iframes : [
+                            {
+                            url: 'https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1'
+                            }
+                        ],
+                label: [],
+                space: [],
+            }
     })
 });
 
