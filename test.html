@@ -1,0 +1,31 @@
+<html>
+<body>
+<script>
+fetch('http://localhost:9000/.netlify/functions/api/')
+        .then(response => response.json().then(data => {
+            console.log(data);
+        }));
+fetch('http://localhost:9000/.netlify/functions/api/createMap', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+        map: 'map1',
+        data: {
+            images: [],
+            iframes: [
+                {
+                    url: 'https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1'
+                }
+            ],
+            label: [],
+        }
+    })
+}).then(response => response.json().then(data => {
+    console.log(data);
+}));
+
+</script>
+</body>
+</html>
