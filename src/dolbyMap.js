@@ -14,6 +14,7 @@ const dolbyMapSchema = new mongoose.Schema({
                 borders: [],
                 likeBtn: [],
                 likeCount: [],
+                urls:[]
         }
     },
 });

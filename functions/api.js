@@ -2591,7 +2591,7 @@ p.$emitter=new i,["on","once","emit","listeners","removeListener","setMaxListene
 /*!
  * Module exports.
  */
-p.ValidationError=u,e.exports=p},function(e,t,n){const o=n(226),i=new o.Schema({map:{type:String,required:!0},data:{type:Object,default:{images:[],iframes:[],label:[],borders:[],likeBtn:[],likeCount:[]}}});e.exports=o.model("dolbyMapSchema",i)},function(e,t,n){"use strict";
+p.ValidationError=u,e.exports=p},function(e,t,n){const o=n(226),i=new o.Schema({map:{type:String,required:!0},data:{type:Object,default:{images:[],iframes:[],label:[],borders:[],likeBtn:[],likeCount:[],urls:[]}}});e.exports=o.model("dolbyMapSchema",i)},function(e,t,n){"use strict";
 /*!
  * depd
  * Copyright(c) 2014-2015 Douglas Christopher Wilson

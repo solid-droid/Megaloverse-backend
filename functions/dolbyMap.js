@@ -2509,4 +2509,4 @@ h.$emitter=new o,["on","once","emit","listeners","removeListener","setMaxListene
 /*!
  * Module exports.
  */
-h.ValidationError=a,e.exports=h},function(e,t,n){const r=n(226),o=new r.Schema({map:{type:String,required:!0},data:{type:Object,default:{images:[],iframes:[],label:[],borders:[],likeBtn:[],likeCount:[]}}});e.exports=r.model("dolbyMapSchema",o)}]));
+h.ValidationError=a,e.exports=h},function(e,t,n){const r=n(226),o=new r.Schema({map:{type:String,required:!0},data:{type:Object,default:{images:[],iframes:[],label:[],borders:[],likeBtn:[],likeCount:[],urls:[]}}});e.exports=r.model("dolbyMapSchema",o)}]));
